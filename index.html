@@ -3,8 +3,25 @@
     <head>
         <meta charset="UFT-8">
         <script src="./main.js"></script>
+        <!-- これがないとjsが読み込まれない -->
     </head>
     <body>
-        <h1>hello world</h1>
+        <h1 id="main-title">MainTitle</h1>
+        <p class="contents">contents</p>
+
+        <div id="wrapper">
+        <div class="box">子要素1</div>
+        <div class="box">子要素2</div>
+        </div>
+
+        <div id="parent">
+        <div id="child">取り除かれる要素</div>
+        </div>
+
+
     </body>
 </html>
+
+<!-- wrapperとparentがバツで実装できてない？
+説明欲しい
+nullも説明ほしい→要素が存在しない場合？？ -->
