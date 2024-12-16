@@ -1,5 +1,3 @@
-// console.log(5 + 10);
-
 const mainTitle = document.getElementById("main-title");
 console.log(mainTitle);
 
